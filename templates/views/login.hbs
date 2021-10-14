@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="shortcut icon" href="./image/icons.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/login.css">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login chat</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login_container">
+                <div class="box_login">
+                    <img src="../image/logoIcon.png" alt="">
+                    <h2>MESSAGE CHAT</h2>
+                </div>
+                <div class="form">
+                    <form action="/login" method="post">
+                        <input type="text" name="name" id="name"
+                            placeholder="name" required>
+                        <input type="email" name="email" id="email"
+                            placeholder="email" required>
+                        <button>login</button>
+                    </form>
+                </div>
+                <div class="divider"></div>
+                <div class="already">
+                    <p>
+                        Create new one
+                    </p>
+                    <a href="/register">
+                        <button>Register</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="./js/login.js"></script>
+</html>

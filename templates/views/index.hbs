@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="shortcut icon" href="./image/icons.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/home.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home chat</title>
+    </head>
+    <body>
+        <div class="container">
+
+            {{!-- navbar --}}
+            <div class="navbar">
+
+                <div class="searchIcons">
+                    {{!-- <img src="./image/icons.png" alt=""> --}}
+                    <i class="fa fa-home"
+                        style="color:white;font-size:20px;margin-left:40px"></i>
+                    <i class="fas fa-search"
+                        style="color:white;font-size:20px;margin-left:40px"></i>
+                </div>
+                <div class="messages">
+                    <h2 style="text-align: center">
+                        Message
+                    </h2>
+                </div>
+                <div class="logout_Btn">
+                    <a href="">SHARE</a>
+                    <a href="">LOGOUT</a>
+                </div>
+            </div>
+
+            {{!-- make people set --}}
+
+            <div class="chat_box">
+
+
+                <div class="user_box">
+                    <div class="user_image">
+                        <img src="./image/logoIcon.png" alt="user">
+                        <div class="name_pro">
+                            <p style="font-weight: 600;">
+                                Md ashif reza
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+                        <div class="date_time">
+                            4 days
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="content_message_box">
+                    <div class="wrapper">
+                        <div class="left">
+                            <div class="image_message">
+                                <img src="./image/logoIcon.png" alt="user">
+                                <div class="message_time">
+                                    <p class="message_text">
+                                        Lorem ipsum dolor sit.loremjiowu
+                                        ewueowuewe
+                                        woy
+                                    </p>
+
+                                    <p class="message_text">
+                                        12:22 pm
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="image_message_right">
+                                <div class="message_time_right">
+                                    <p class="message_text">
+                                        Lorem ipsum dolor sit.loremjiowu
+                                        ewueowuewe
+                                        woy
+                                    </p>
+
+                                    <p class="message_text">
+                                        12:22 pm
+                                    </p>
+                                </div>
+                                <img src="./image/logoIcon.png" alt="user">
+                            </div>
+                        </div>
+                    </div>
+                    {{!-- form meesage --}}
+                    <div class="input_form">
+
+                        <div class="model">
+                            <div class="doc_image">
+                                <i class="fa fa-image" style="font-size:
+                                    25px;color:indigo;margin-bottom:20px"></i>
+                                <i class="fa fa-home" style="font-size:
+                                    25px;color:indigo;margin-bottom:20px"></i>
+                                <i class="fa fa-user" style="font-size:
+                                    25px;color:indigo"></i>
+                            </div>
+                        </div>
+                        <form action="">
+                            <span>
+
+                                <i class="fa fa-link linkBtn"
+                                    style="cursor:pointer"></i>
+                            </span>
+                            <input type="text" name="" id=""
+                                placeholder="messages...">
+                            <span
+                                style="font-size:20px;color:indigo;cursor:pointer">
+                                send
+                            </span>
+                        </form>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </body>
+    <script src="./js/home.js"></script>
+</html>

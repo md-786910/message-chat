@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="shortcut icon" href="./image/icons.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/register.css">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register chat</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login_container">
+                <div class="box_login">
+                    <img src="../image/logoIcon.png" alt="">
+                    <h2>Register</h2>
+                </div>
+                <div class="form1">
+                    <form action="/register" method="POST"
+                        enctype="multipart/form-data">
+                        <input type="text" name="name" id="name"
+                            placeholder="name" required>
+                        <input type="email" name="email" id="email"
+                            placeholder="email" required>
+
+                        <input type="text" name="about" id="about"
+                            placeholder="About Yourself 4 or 5 words"
+                            maxlength="20" required>
+
+                        <input type="file" name="file" id="fle">
+
+                        <button>Register</button>
+                    </form>
+                </div>
+                <div class="divider"></div>
+                <div class="already">
+                    <p>
+                        Already user
+                    </p>
+                    <a href="/">
+                        <button>Login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="./js/register.js"></script>
+</html>

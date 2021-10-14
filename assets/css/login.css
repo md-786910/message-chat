@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  background-image: url("https://source.unsplash.com/weekly?login");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.login_container {
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  height: 90vh;
+  width: 60vh;
+  border-radius: 10px;
+  box-shadow: 20px 20px 120px -10px tomato;
+}
+
+.box_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.box_login img {
+  width: 80px;
+  height: 80px;
+}
+.box_login h2 {
+  margin-top: 5px;
+}
+form {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  width: 50vh;
+  padding: 10px;
+  height: 2em;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: indigo;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 50vh;
+  padding: 10px;
+}
+
+.divider {
+  background-color: indigo;
+  height: 1px;
+}
+.already {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 20px;
+}
